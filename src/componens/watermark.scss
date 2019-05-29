@@ -1,0 +1,72 @@
+.watermark {
+  .header {
+    display: flex;
+    justify-content: center;
+    .waterLabel {
+      padding:10px;
+    }
+    .waterinput {
+      width: 400px;
+      padding: 10px;
+      font-size: 16px;
+      color: #ccc;
+    }
+    .active {
+      color: black;
+    }
+    .selectImg {
+      margin: 0 10px;
+      #inputimg {
+        display: none;
+      }
+      .labelimg {
+        background-color: #108ee9;
+        border-color: #108ee9;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+    }
+    .saveImg {
+      height: 40px;
+      width: 90px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #eee;
+      a {
+        text-decoration: none;
+        color: #108ee9;
+      }
+    }
+  }
+  .config {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flex-direction: column;
+    div {
+      margin: 10px;
+    }
+    .waterFont {
+      input {
+        width: 30px;
+        padding: 0 10px 0 20px;
+      }
+    }
+    .clearance {
+      input {
+        width: 40px;
+        padding: 0 10px 0 20px;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .none {
+      display: none;
+    }
+  }
+}
